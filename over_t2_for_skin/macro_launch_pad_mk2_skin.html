@@ -17,100 +17,157 @@ How to Use <br>
   <!-- ================================== 1st Line ==================================== -->
 	<td>
       <select id="blink1">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color1">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
     <td>
       <select id="blink2">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color2">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
 	<td>
       <select id="blink3">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color3">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
 	<td>
       <select id="blink4">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color4">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
 	<td>
       <select id="blink5">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color5">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
 	<td>
       <select id="blink6">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color6">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
 	<td>
       <select id="blink7">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color7">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
 	<td>
       <select id="blink8">
-        <option value="0">Off</option>
-        
+        <option value="B0">On</option>
+        <option value="B1">Blink</option>
       </select>
     </td>
     <td>
       <select id="color8">
-        <option value="0">Black</option>
-        
+        <option value="00">Black</option>
+        <option value="03">White</option>
+        <option value="05">Red</option>
+        <option value="09">Orange</option>
+        <option value="0D">Yellow</option>
+        <option value="15">Green</option>
+		<option value="25">Cyan</option>
+		<option value="2D">Blue</option>
+		<option value="25">Purple</option>
       </select>
     </td>
+
 	
   </tr>
   <tr>
@@ -1616,14 +1673,14 @@ function myFunction() {
 	"&lt;macro id=\"Make_LaunchPad_MK2\"&gt;<br>" +
 	"&lt;name&gt;Make LaunchPad MK2 Skin&lt;/name&gt;<br>" +
 	"&lt;sequence&gt;<br>" +
-	"&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y1 + ", 104, " + x1 + ")&lt;\/step&gt;" + 
-    "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y2 + ", 105, " + x2 + ")&lt;\/step&gt;<br>" + 
-    "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y3 + ", 106, " + x3 + ")&lt;\/step&gt;" + 
-    "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y4 + ", 107, " + x4 + ")&lt;\/step&gt;<br>" + 
-    "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y5 + ", 108, " + x5 + ")&lt;\/step&gt;" + 
-    "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y6 + ", 109, " + x6 + ")&lt;\/step&gt;<br>" + 
-    "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y7 + ", 110, " + x7 + ")&lt;\/step&gt;" + 
-    "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y8 + ", 111, " + x8 + ")&lt;\/step&gt;<br>" +
+	"&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y1 + " 68 " + x1 + "\")&lt;\/step&gt;" + 
+    "&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y2 + " 69 " + x2 + "\")&lt;\/step&gt;<br>" + 
+    "&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y3 + " 6A " + x3 + "\")&lt;\/step&gt;" + 
+    "&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y4 + " 6B " + x4 + "\")&lt;\/step&gt;<br>" + 
+    "&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y5 + " 6C " + x5 + "\")&lt;\/step&gt;" + 
+    "&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y6 + " 6D " + x6 + "\")&lt;\/step&gt;<br>" + 
+    "&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y7 + " 6E " + x7 + "\")&lt;\/step&gt;" + 
+    "&lt;step pause=\"0.01\"&gt;Panel.Midi.Send(\"" + y8 + " 6F " + x8 + "\")&lt;\/step&gt;<br>" +
 		
 	"&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y10 + ", 81, " + x10 + ")&lt;\/step&gt;" + 
     "&lt;step pause=\"0.01\"&gt;Panel.Midi.NoteOn(" + y11 + ", 82, " + x11 + ")&lt;\/step&gt;<br>" + 
